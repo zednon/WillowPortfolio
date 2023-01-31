@@ -1,0 +1,48 @@
+header {
+    height: auto;
+    background-color: navy;
+    color:aliceblue;
+}
+
+main {
+    height: auto;
+    background-color: azure;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer {
+    height: 150px;
+    background-color: darkcyan;
+}
+
+*, 
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.liNavTop {
+display: inline-block;
+padding: 10px 25px;
+}
+
+.liNavTop a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.ulNavTop {
+    font-style: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 3fr 6fr 3fr;
+    height: auto;
+}
+
+
